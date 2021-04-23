@@ -64,6 +64,6 @@ class Aria2
 
     public function __call(string $name, array $arguments)
     {
-        $this->request($name, $arguments);
+        return $this->request($name, $arguments);
     }
 }
